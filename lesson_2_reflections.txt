@@ -1,0 +1,8 @@
+#What happens when you initialize a repository? Why do you need to do it?
+ - When you run the command 'git init' a new git repository is created and it basically means that the previous directory system receveid some metadata which allows it to be sincronized and compliant with git application. You do it in order to work with repositories that can be versioned and manipulated by git.
+
+
+#How is the staging area different from the working directory and the repository? What value do you think it offers?
+From my point the staging area adds simplicity and security making the user's expirence even more productive due to the fact that it works as
+a place where you can have commitable and noncomitable files. It becomes simpler because you just have to run an especific command 'git add <file>' to add the given file into it and the staging area is more secure because it decrease the chances to commit uncommitable files to the master repository by mistake. 
+
