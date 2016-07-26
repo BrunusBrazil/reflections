@@ -1,0 +1,18 @@
+# How did viewing a diff between two versions of a file help you see the bug that was introduced
+-By looking at the two versions of the files I am able to compare everything that was added or removed in the new version in that way we do not wast time scanning things that did not change, making our bug hunting more straightfowrd. 
+
+# How could having easy access to the entire history of a file make you a more efficient programmer in the long term ?
+ - I could easily check when a given new implementation was added, why it was added and who added it makinng the rastreability of the software clear and faster.
+
+ #What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+- In my opnion the pros is that you can add your own criteria for commiting your work for example after every logical change/bug fixed  and as each work/project can be very particular this feature ends up making a huge difference. For the sake of an example lets suppose you are working with an automatic version system wich saves copy of your work in every 15 min if you haven't completely finished your job the version control system will likely save imcomplete code to the repository. The cons of mannually commiting is that you need to remeber to commit and to save some time to do it.
+
+#Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+- I belive that the reason git allows saving multiple file comes from the ideia that it was design from a developer Linux Torvards to Developers and as a developer Linux Towards knew that most of time in the development of a simple applcation multiple files will be interelated as is the case of a web application and the .html and .css files on the other hand the Goodgle docs may have been designed for more general users who would like to save copies of several types of documents and these documents most of times will not have pages dependent of each other so the mutiple files commit at once would not be necessary.
+
+#How can you use the commands git log and git diff to view the history of files?
+- Both log and diff are important functions in the git environment, you can use the 'log' command to see the list of commits applied to a given repository and then use the 'diff [1 commit id] [ 2 commit id]' to compare which lines were added or removed between the two files. 
+
+#How might using version control make you more confident to make changes that could break something?
+- If some bug is added I can easely look for the version of the file were it was added and work it out without losing the newstest job.
+
