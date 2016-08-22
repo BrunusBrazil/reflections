@@ -3,6 +3,14 @@
 
 
 #How is the staging area different from the working directory and the repository? What value do you think it offers?
-From my point the staging area adds simplicity and security making the user's expirence even more productive due to the fact that it works as
-a place where you can have commitable and noncomitable files. It becomes simpler because you just have to run an especific command 'git add <file>' to add the given file into it and the staging area is more secure because it decrease the chances to commit uncommitable files to the master repository by mistake. 
+ - From my point the staging area adds simplicity and security leading to an user's expirence even more productive due to the fact that it works as a place where you can have commitable and noncomitable files. It becomes simpler because you just have to run one  command 'git add <file>' to add the given file into the staged area and the staging area is more secure because it decrease the chances to commit uncommitable (files which was not suppose to be commited) files to the master repository by mistake. 
 
+#How can you use the staging area to make sure you have one commit per logical change?
+ - Running the command 'git diff' will compare the files fron your working directory with the files in the staging area, therefore you can double check if the difference between these files is correct and that they are ready to be commited.
+
+#What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+  1- When you want to work in some type if experintal project related to the master branch
+  2- When you are working in an especific feature that might be added to the master branch
+  
+#How do the diagrams help you visualize the branch structure?
+ Sometimes you will be working with a couple of branches leading to an encrease in complexbility. Drawing diagrams will help you then to simplify your work making it more visual and will finally help you to make better decisions.
